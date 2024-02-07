@@ -9,12 +9,11 @@ int main(int argc, char *argv[])
 {
 
     if (argc != 3)
-    {
         printf("Usage: wlk <name>\n");
         return 0;
     }
 
-    int age = atoi(argv[2]);
+    int age = atoi(argv[2]); 
     if (age < 1)
     {
         printf("Error: invalid age\n");
